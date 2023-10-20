@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+    background-color: black;
+    color: white; /* Set text color to a visible contrast */
+}
+
+body.main_body {
+    background-color: rgb(121, 124, 113);
+    color: rgb(255, 255, 255);
+}
+
+table, label, td, th {
+  color: black;
+}
+
+.card {
+  width: 50%;
+}
